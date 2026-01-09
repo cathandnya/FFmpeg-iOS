@@ -14,12 +14,12 @@ let package = Package(
         ),
     ],
     targets: [
-        .binaryTarget(name: "avcodec", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.0/avcodec.zip", checksum: "a767c894b8e6313e899c9a36f9336bb5390d98ce5070251cca3a97b9b7c6542a"),
-        .binaryTarget(name: "avfilter", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.0/avfilter.zip", checksum: "b620cc0973f6600e2d62320b4b6085977b85051daadd243080e5f273bc413b84"),
-        .binaryTarget(name: "avformat", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.0/avformat.zip", checksum: "7286dc8913d06684d97caf2af9c72e2fe484afaadb64b4c1804e2c3365f5e0e1"),
-        .binaryTarget(name: "avutil", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.0/avutil.zip", checksum: "d0c3596610fda9433591d342e6bd634c19d992c05372f872f4b84c4fa53dcf41"),
-        .binaryTarget(name: "fftools", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.0/fftools.zip", checksum: "54f1bca5c8a54c16476a627434fde916e441ab0510f89680bfdd978769dd2172"),
-        .binaryTarget(name: "swresample", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.0/swresample.zip", checksum: "8d0760c143e5f40d990b6069d14ee04611b2e41d60aae5dee158580e16049481"),
-        .binaryTarget(name: "swscale", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.0/swscale.zip", checksum: "ed70ea8a8499ab7c5dcf088a0aa8dc85b656852ebf316f813b99b4ee309bce45"),
+        .binaryTarget(name: "avcodec", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.1/avcodec.zip", checksum: "cb855f74a6af47023576ef8117ecbb457f2187d1a320aa68646e0e58cfa53e3d"),
+        .binaryTarget(name: "avfilter", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.1/avfilter.zip", checksum: "104b4f7b4cbcc00cdf2f4260ee95576fd8981219bc5993f7b6a4c4a48d3f768c"),
+        .binaryTarget(name: "avformat", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.1/avformat.zip", checksum: "f261047bddf42b2ccd4b04c992c3eb6eec9674dd88073e5cdfc69ddc3e99d3e4"),
+        .binaryTarget(name: "avutil", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.1/avutil.zip", checksum: "910a0c4fcdae7749543c074361608d8f19c550192142922f40a84db1bbf93a3e"),
+        .binaryTarget(name: "fftools", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.1/fftools.zip", checksum: "99fe0b2110ba62525c8bda54bc58eafee50124c2d170ba9f35d52fb26f0effe6"),
+        .binaryTarget(name: "swresample", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.1/swresample.zip", checksum: "feecb906d5b693797fb2940dc1b72bf76b66a0a3f2c362fc324d940fed80ead0"),
+        .binaryTarget(name: "swscale", url: "https://github.com/cathandnya/FFmpeg-iOS/releases/download/v1.0.1/swscale.zip", checksum: "77cd213db6df4bfd8fdc7cb42f1db2540f4a3f1060158e0cd3a4b5880d7d22dd"),
     ]
 )
