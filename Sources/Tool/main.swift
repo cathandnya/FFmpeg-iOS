@@ -246,6 +246,7 @@ extension Tool {
                         "--disable-audiotoolbox",
                         "--disable-sdl2",
                         "--disable-libxcb",
+                        "--disable-avdevice",  // Disable avdevice to avoid camera/AVFoundation dependencies
                         "--target-os=darwin",
                         "--arch=\(arch)",
                         "--cc=\(cc)",
